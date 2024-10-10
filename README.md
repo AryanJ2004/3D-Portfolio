@@ -4,7 +4,7 @@
 ## <a name="personal-portfolio">🤖 Personal Portfolio</a>
 This is my personal portfolio website, showcasing my projects, skills, and experience as a MERN Stack Developer. The portfolio is built with modern web technologies like React.js, Three.js, and Tailwind CSS to provide an interactive and visually appealing experience.
 
-You can view the live version of my portfolio here: [Link](https://aryanj2004.vercel.app/](https://aryanj2004.github.io/3D-Portfolio/))
+You can view the live version of my portfolio here: [Link](https://aryanj2004.github.io/3D-Portfolio/)
 
 
 
