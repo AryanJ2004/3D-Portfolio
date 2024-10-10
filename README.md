@@ -43,7 +43,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone git@github.com:AryanJ2004/3D-Personal-Portfolio.git
+git clone git@github.com:AryanJ2004/3D-Portfolio.git
 cd 3D-Personal-Portfolio
 ```
 
