@@ -12,7 +12,7 @@ import Target from './Target.jsx';
 import CanvasLoader from './Loading.jsx';
 import HeroCamera from './HeroCamera.jsx';
 import { calculateSizes } from '../constants/index.js';
-// import { HackerRoom } from './HackerRoom.jsx';
+import { HackerRoom } from './HackerRoom.jsx';
 
 const Hero = () => {
   const isSmall = useMediaQuery({ maxWidth: 440 });
@@ -37,9 +37,9 @@ const Hero = () => {
             <Leva hidden />
             <PerspectiveCamera makeDefault position={[0, 0, 30]} />
 
-{/*             <HeroCamera isMobile={isMobile}>
+            <HeroCamera isMobile={isMobile}>
               <HackerRoom scale={sizes.deskScale} position={sizes.deskPosition} rotation={[0.1, -Math.PI, 0]} />
-            </HeroCamera> */}
+            </HeroCamera>
 
             <group>
               <Target position={sizes.targetPosition} />
