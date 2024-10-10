@@ -7,7 +7,7 @@ import github from "./socials/github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import edu from "./edu.png";
-import pm from "./pm.png";
+import PM from "./pm.png";
 import android from "./and.png";
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -58,7 +58,7 @@ export {
   java,
   project1,
   kotlin,
-  pm,
+  PM,
   project2,
   project3,
   project4,
