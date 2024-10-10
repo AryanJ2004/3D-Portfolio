@@ -1,7 +1,7 @@
 import {
   dsa,
   cpp,
-  pm,
+  PM,
   linkedin,
   web,
   project1,
@@ -150,7 +150,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Personal Projects",
-    icon: pm,
+    icon: PM,
     iconBg: "#383E56",
     date: "Present",
     points: [
