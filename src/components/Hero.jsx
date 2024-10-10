@@ -12,7 +12,7 @@ import Target from './Target.jsx';
 import CanvasLoader from './Loading.jsx';
 import HeroCamera from './HeroCamera.jsx';
 import { calculateSizes } from '../constants/index.js';
-// import { HackerRoom } from './HackerRoom.jsx';
+import { HackerRoom } from './HackerRoom.jsx';
 
 const Hero = () => {
   const isSmall = useMediaQuery({ maxWidth: 440 });
@@ -28,6 +28,7 @@ const Hero = () => {
           Hi, I am Aryan Jain! <span className="waving-hand">👋</span>
         </p>
         <p className="hero_tag text-gray_gradient">Crafting Code, Shaping the Future</p>
+        <p className="text-4xl text text-gray_gradient">I'm glad to make your acquaintance and look forward to working with you.</p>
       </div>
 
       <div className="w-full h-full absolute inset-0">
@@ -37,9 +38,9 @@ const Hero = () => {
             <Leva hidden />
             <PerspectiveCamera makeDefault position={[0, 0, 30]} />
 
-{/*             <HeroCamera isMobile={isMobile}>
+            <HeroCamera isMobile={isMobile}>
               <HackerRoom scale={sizes.deskScale} position={sizes.deskPosition} rotation={[0.1, -Math.PI, 0]} />
-            </HeroCamera> */}
+            </HeroCamera>
 
             <group>
               <Target position={sizes.targetPosition} />
