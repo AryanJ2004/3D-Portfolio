@@ -11,7 +11,6 @@ You can view the live version of my portfolio here: [Link](https://aryanj2004.gi
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - React.js
-- Three.js
 - React Three Fiber
 - React Three Drei
 - Email JS
@@ -22,7 +21,7 @@ You can view the live version of my portfolio here: [Link](https://aryanj2004.gi
 ## <a name="features">🔋 Features</a>
 
 
-- **Interactive 3D Animations**: Enhanced user experience with 3D models and animations built using Three.js and React Three Fiber.
+- **Interactive 3D Animations**: Enhanced user experience with 3D animations.
 - **Responsive Design**: Fully responsive layout, optimized for all devices.
 - **Smooth Navigation**: Easy navigation between sections using scroll and menu options.
 - **Contact Form**: Users can directly send emails through the contact form, powered by EmailJS.
